@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "block-ci-demo"
+version = "0.1.0"
+description = ""
+authors = ["Donatas Rasiukevicius <donatas@fly.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
